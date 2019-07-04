@@ -1,1 +1,1 @@
-# goofyjnr.githb.io
+# goofyjnr.github.io
