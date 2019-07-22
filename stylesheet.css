@@ -1,5 +1,5 @@
 body{
-  font-family: sans serif; 
+  font-family: serif; 
   color: #ffffff;
 }
 h1 {
@@ -13,4 +13,9 @@ body{
 }
 #watercat{
   width: 50%;
+}
+a {
+  color: #ffffff;
+  font-size: 500%; 
+  font-family: serif;
 }
