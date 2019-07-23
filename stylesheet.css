@@ -18,4 +18,20 @@ a {
   color: #ffffff;
   font-size: 500%; 
   font-family: serif;
+  background-color: background: #A446A1;
+background: -moz-linear-gradient(45deg, #A446A1 0%, #CB0772 53%, #750000 100%);
+background: -webkit-linear-gradient(45deg, #A446A1 0%, #CB0772 53%, #750000 100%);
+background: linear-gradient(45deg, #A446A1 0%, #CB0772 53%, #750000 100%);;
+}
+li {
+  background-color: background: #A446A1;
+background: -moz-linear-gradient(45deg, #A446A1 0%, #CB0772 53%, #750000 100%);
+background: -webkit-linear-gradient(45deg, #A446A1 0%, #CB0772 53%, #750000 100%);
+background: linear-gradient(45deg, #A446A1 0%, #CB0772 53%, #750000 100%);;
+}
+h2 {
+  background-color: background: #A446A1;
+background: -moz-linear-gradient(45deg, #A446A1 0%, #CB0772 53%, #750000 100%);
+background: -webkit-linear-gradient(45deg, #A446A1 0%, #CB0772 53%, #750000 100%);
+background: linear-gradient(45deg, #A446A1 0%, #CB0772 53%, #750000 100%);;
 }
