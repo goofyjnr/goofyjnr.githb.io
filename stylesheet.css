@@ -6,10 +6,7 @@ body{
   width: 50%;
 }
 body{
-  background: #0B1CFF;
-background: -moz-radial-gradient(center, #0B1CFF 0%, #FF0606 50%, #D505B0 100%);
-background: -webkit-radial-gradient(center, #0B1CFF 0%, #FF0606 50%, #D505B0 100%);
-background: radial-gradient(ellipse at center, #0B1CFF 0%, #FF0606 50%, #D505B0 100%);
+  background-color: #dc143c;
 }
 #watercat{
   width: 50%;
@@ -34,4 +31,7 @@ h2 {
   background: -moz-linear-gradient(45deg, #A446A1 0%, #CB0772 53%, #750000 100%);
   background: -webkit-linear-gradient(45deg, #A446A1 0%, #CB0772 53%, #750000 100%);
   background: linear-gradient(45deg, #A446A1 0%, #CB0772 53%, #750000 100%);;
+}
+#cattop {
+  width: 50%;
 }
