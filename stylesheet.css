@@ -2,14 +2,14 @@ body{
   font-family: serif; 
   color: #ffffff;
 }
-h1 {
-  background-color: #26d0c9;
-}
 #catgangster {
   width: 50%;
 }
 body{
-  background-color: #dc143c;
+  background: #0B1CFF;
+background: -moz-radial-gradient(center, #0B1CFF 0%, #FF0606 50%, #D505B0 100%);
+background: -webkit-radial-gradient(center, #0B1CFF 0%, #FF0606 50%, #D505B0 100%);
+background: radial-gradient(ellipse at center, #0B1CFF 0%, #FF0606 50%, #D505B0 100%);
 }
 #watercat{
   width: 50%;
