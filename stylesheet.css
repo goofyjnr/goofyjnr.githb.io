@@ -3,18 +3,25 @@
   padding:5%;
   text-align:center;
   width:100%;
-
+  border:3px solid black;
   font-size:50px;
 }
 
 #sidebar{
   background:#E79AC6;
-  width:15%;
+  width:20%;
   padding-bottom:90%;
   text-align:center;
   float:left;
+  border:3px solid black;
+  font-size:19px;
 }
 #content{
   Background:#FFEFDE;
   padding-bottom:90%;
+  border:3px solid black;
+  width:100%;
+}
+a:hover{
+  background:#835F8B;
 }
