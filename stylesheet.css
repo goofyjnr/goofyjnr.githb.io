@@ -1,6 +1,5 @@
 #banner{
   background:#CBE4ED;
-  padding:5%;
   text-align:center;
   width:100%;
   border:3px solid black;
@@ -18,8 +17,8 @@
 }
 #sidebar{
   background:#E79AC6;
-  width:110%;
-  padding-bottom:5%;
+  width:100%;
+  
   text-align:center;
   float:left;
   border:3px solid black;
@@ -29,8 +28,7 @@
   Background:#FFEFDE;
   padding-bottom:100%;
   border:3px solid black;
-  padding-right:60%;
-  width:50%;
+  width:100%;
 }
 a:hover{
   background:#835F8B;
