@@ -18,8 +18,8 @@
 }
 #sidebar{
   background:#E79AC6;
-  width:20%;
-  padding-bottom:90%;
+  width:110%;
+  padding-bottom:5%;
   text-align:center;
   float:left;
   border:3px solid black;
@@ -27,19 +27,26 @@
 }
 #content{
   Background:#FFEFDE;
-  padding-bottom:103%;
+  padding-bottom:100%;
   border:3px solid black;
-  width:100%;
+  padding-right:60%;
+  width:50%;
 }
 a:hover{
   background:#835F8B;
 }
 #first{
   float:left;
+  text-align:center;
+  padding:3%;
 }
 #contact{
   float:left;
+  text-align:center;
+  padding:3%;
 }
 #second{
-  float:left;
+  float:right;
+  text-align:center;
+  padding:3%;
 }
