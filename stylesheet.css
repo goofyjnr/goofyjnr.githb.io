@@ -6,7 +6,9 @@
   font-size:50px;
   box-sizing:border-box;
 }
-
+#rickroll{
+  color:#000000;
+}
 #firstpagebody{
   background:#000000;
 }
