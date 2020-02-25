@@ -11,14 +11,30 @@
   <a id="second"  href=" otherpage.html" style="color:#ffffff">Second page </a>
  <a id="first" href="index.html" style="color:#ffffff"> First page </a>
  </div>
- <div id="content">
-   <ul>
-     <li>
-       Hey you want to contact me?
-     </li>
-     <li>well that won't be happing but good job trying</li>
-     <li> want to order some pizza? if so call 0800838383 then you can order some pizza</li>
-   </ul>
- </div> 
+ <div id="content3">
+ <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</div>
  </body>
 </html>
