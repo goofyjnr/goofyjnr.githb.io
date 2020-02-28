@@ -10,18 +10,18 @@
   color:#000000;
 }
 #firstpagebody{
-  background:#000000;
+  background:#073585;
 }
 #contactbody{
-  background:#000000;
+  background:#c22b5d;
 }
 #secondbody{
-  background:#000000;
+  background:#3f6146;
 }
 #sidebar{
   background:#E79AC6;
   width:100%;
-   box-sizing:border-box;
+  box-sizing:border-box;
   text-align:center;
   float:left;
   border:3px solid black;
@@ -69,13 +69,18 @@ a:hover{
 }
 #photos{
   Background:#ADECDA;
-  padding-bottom:80%;
+  padding-bottom:50%;
   border:3px solid black;
   width:50%;
   box-sizing:border-box;
   float:right;
 }
-
+#frog{
+  width:60%;
+}
+#explosion{
+  width:60%;
+}
 /*this is the contact page*/
 
 input[type=text], select, textarea {
