@@ -6,6 +6,14 @@
   font-size:50px;
   box-sizing:border-box;
 }
+#stockimg1{
+  width:60%;
+  margin:100px;
+}
+#stockimg2{
+  width:60%;
+  margin:100px;
+}
 #rickroll{
   color:#000000;
 }
@@ -29,7 +37,7 @@
 }
 #content1{
   Background:#FFEFDE;
-  padding-bottom:80%;
+  padding-bottom:50%;
   border:3px solid black;
   width:100%;
   box-sizing:border-box;
