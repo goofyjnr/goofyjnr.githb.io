@@ -1,126 +1,143 @@
-#banner{
-  background:#CBE4ED;
-  text-align:center;
-  width:100%;
-  border:3px solid black;
-  font-size:50px;
-  box-sizing:border-box;
+#banner {
+	background: #CBE4ED;
+	text-align: center;
+	width: 100%;
+	border: 3px solid black;
+	font-size: 50px;
+	box-sizing: border-box;
 }
-#stockimg1{
-  width:60%;
-  margin:100px;
+#stockimg1 {
+	width: 60%;
+	margin: 100px;
 }
-#stockimg2{
-  width:60%;
-  margin:100px;
+#stockimg2 {
+	width: 60%;
+	margin: 100px;
 }
-#rickroll{
-  color:#000000;
+#rickroll {
+	color: #000000;
 }
-#firstpagebody{
-  background:#073585;
+#firstpagebody {
+	background: #073585;
 }
-#contactbody{
-  background:#c22b5d;
+#contactbody {
+	background: #c22b5d;
 }
-#secondbody{
-  background:#3f6146;
+#secondbody {
+	background: #3f6146;
 }
-#sidebar{
-  background:#E79AC6;
-  width:100%;
-  box-sizing:border-box;
-  text-align:center;
-  float:left;
-  border:3px solid black;
-  font-size:19px;
+#sidebar {
+	background: #E79AC6;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+	border: 3px solid black;
+	font-size: 19px;
 }
-#content1{
-  Background:#FFEFDE;
-  padding-bottom:50%;
-  border:3px solid black;
-  width:100%;
-  box-sizing:border-box;
+#content1 {
+	Background: #FFEFDE;
+	padding-bottom: 50%;
+	border: 3px solid black;
+	width: 100%;
+	box-sizing: border-box;
 }
-#content3{
-  Background:#FFEFDE;
-  padding-bottom:20%;
-  border:3px solid black;
-  width:100%;
-  box-sizing:border-box;
+#content3 {
+	Background: #FFEFDE;
+	padding-bottom: 20%;
+	border: 3px solid black;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 30px;
 }
-#content2{
-  Background:#FFEFDE;
-  padding-bottom:80%;
-  border:3px solid black;
-  width:50%;
-  box-sizing:border-box;
-  float:left;
+#content2 {
+	Background: #FFEFDE;
+	padding-bottom: 80%;
+	border: 3px solid black;
+	width: 50%;
+	box-sizing: border-box;
+	float: left;
 }
-a:hover{
-  background:#835F8B;
+a:hover {
+	background: #835F8B;
 }
-#first{
-  float:left;
-  text-align:center;
-  padding:3%;
+#first {
+	float: left;
+	text-align: center;
+	padding: 3%;
 }
-#contact{
-  float:left;
-  text-align:center;
-  padding:3%;
+#contact {
+	float: left;
+	text-align: center;
+	padding: 3%;
 }
-#second{
-  float:right;
-  text-align:center;
-  padding:3%;
+#second {
+	float: right;
+	text-align: center;
+	padding: 3%;
 }
-#photos{
-  Background:#ADECDA;
-  padding-bottom:50%;
-  border:3px solid black;
-  width:50%;
-  box-sizing:border-box;
-  float:right;
+#photos {
+	Background: #ADECDA;
+	padding-bottom: 50%;
+	border: 3px solid black;
+	width: 50%;
+	box-sizing: border-box;
+	float: right;
 }
-#frog{
-  width:60%;
+#frog {
+	width: 60%;
 }
-#explosion{
-  width:60%;
+#explosion {
+	width: 60%;
+}
+#twice{
+  width: 60%;
+}
+#toga{
+   width: 60%;
+}
+#Lemillion{
+   width: 60%;
 }
 /*this is the contact page*/
 
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+	width: 100%;
+	/* Full width */
+	padding: 12px;
+	/* Some padding */
+	border: 1px solid #ccc;
+	/* Gray border */
+	border-radius: 4px;
+	/* Rounded borders */
+	box-sizing: border-box;
+	/* Make sure that padding and width stays in place */
+	margin-top: 6px;
+	/* Add a top margin */
+	margin-bottom: 16px;
+	/* Bottom margin */
+	resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
 }
-
 /* Style the submit button with a specific background color etc */
+
 input[type=submit] {
-  background-color: #145f91;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+	background-color: #145f91;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
 }
-
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color :#c43025;
-}
 
+input[type=submit]:hover {
+	background-color: #c43025;
+}
 /* Add a background color and some padding around the form */
+
 .container {
-  border-radius: 5px;
-  background-color: #FEBAF7;
-  padding: 20px;
+	border-radius: 5px;
+	background-color: #FEBAF7;
+	padding: 20px;
 }
 /*the end of the code for the contact page*/
