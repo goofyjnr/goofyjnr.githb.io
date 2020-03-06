@@ -84,6 +84,10 @@ a:hover {
 	box-sizing: border-box;
 	float: right;
 }
+li{
+ font-size:25px;
+ 
+}
 #frog {
 	width: 60%;
 }
@@ -97,6 +101,21 @@ a:hover {
    width: 60%;
 }
 #Lemillion{
+   width: 60%;
+}
+#Iida{
+  width: 60%;
+}
+#deku{
+   width: 60%;
+}
+#momo{
+    width: 60%;
+}
+#todroki{
+   width: 60%;
+}
+#Aizawa{
    width: 60%;
 }
 /*this is the contact page*/
