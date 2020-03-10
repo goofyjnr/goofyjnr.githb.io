@@ -1,93 +1,13 @@
-#banner { /* this is the banner that is used on all of the pages*/
-	background: #CBE4ED;
-	text-align: center;
-	width: 100%;
-	border: 3px solid black;
-	font-size: 50px;
-	box-sizing: border-box;
-}
-/*first page stuff*/
-#stockimg1 {
-	width: 60%;
-	margin: 100px;
-}
-#stockimg2 {
-	width: 60%;
-	margin: 100px;
-}
-#rickroll {/*this is simply just a link to never gonna give u up by rick astley*/
-	color: #000000;
-}
-#firstpagebody {
-	background: #073585;
-}
-#content1 {
-	Background: #FFEFDE;
-	padding-bottom: 50%;
-	border: 3px solid black;
-	width: 100%;
-	box-sizing: border-box;
-}
-/*first page stuff end*/
-
-/*contact page stuff*/
-#contactbody {
-	background: #c22b5d;
-}
-#content3 {
-	Background: #FFEFDE;
-	padding-bottom: 20%;
-	border: 3px solid black;
-	width: 100%;
-	box-sizing: border-box;
-	font-size: 30px;
-}
-
-input[type=text], select, textarea {
-	width: 100%;
-	padding: 12px;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
-	margin-top: 6px;
-	margin-bottom: 16px;
-	resize: vertical
-}
-
-
-input[type=submit] {
-	background-color: #145f91;
-	color: white;
-	padding: 12px 20px;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-}
-
-
-input[type=submit]:hover {
-	background-color: #c43025;
-}
-
-
-.container {
-	border-radius: 5px;
-	background-color: #FEBAF7;
-	padding: 20px;
-}
-/*the end of the code for the contact page*/
-
-/* second page*/
 #secondbody {
 	background: #3f6146;
 }
 #content2 {
 	Background: #FFEFDE;
-	padding-bottom: 80%;
+  padding-bottom:20%;
 	border: 3px solid black;
 	width: 50%;
 	box-sizing: border-box;
-	float: left;
+	float: right;
 }
 li{/* this is the list of all the names of the characters */
  font-size:25px;
@@ -99,37 +19,14 @@ li{/* this is the list of all the names of the characters */
 	border: 3px solid black;
 	width: 50%;
 	box-sizing: border-box;
-	float: right;
+	float: left;
 }
-#frog {
-	width: 60%;
-}
-#explosion {
-	width: 60%;
+#frog,#explosion,#toga,#Lemillion,#Iida,#deku,#momo,#todroki,#Aizawa{
+	width: 50%;
+	float:left;
 }
 #twice{
-  width: 60%;
-}
-#toga{
-   width: 60%;
-}
-#Lemillion{
-   width: 60%;
-}
-#Iida{
-  width: 60%;
-}
-#deku{
-   width: 60%;
-}
-#momo{
-    width: 60%;
-}
-#todroki{
-   width: 60%;
-}
-#Aizawa{
-   width: 60%;
+  width: 40%;
 }
 /*this end is for the photos on otherpage.html */
 /* end of second page*/
@@ -164,46 +61,14 @@ a:hover {
 }
 /*end nav bar*/
 
-li{/* this is the list of all the names of the characters */
- font-size:25px;
+
+#bodysubmit{
+  background:#E2A0F5;
 }
-/*start this is for the photos on otherpage.html */
-#photos {
-	Background: #ADECDA;
-	padding-bottom: 50%;
-	border: 3px solid black;
-	width: 50%;
-	box-sizing: border-box;
-	float: right;
+
+#snake{
+ width:20%;
 }
-#frog {
-	width: 60%;
+#rabit{
+  width:10%;
 }
-#explosion {
-	width: 60%;
-}
-#twice{
-  width: 60%;
-}
-#toga{
-   width: 60%;
-}
-#Lemillion{
-   width: 60%;
-}
-#Iida{
-  width: 60%;
-}
-#deku{
-   width: 60%;
-}
-#momo{
-    width: 60%;
-}
-#todroki{
-   width: 60%;
-}
-#Aizawa{
-   width: 60%;
-}
-/*this end is for the photos on otherpage.html */
