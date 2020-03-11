@@ -1,11 +1,92 @@
+#banner { /* this is the banner that is used on all of the pages*/
+	background: #CBE4ED;
+	text-align: center;
+	width: 100%;
+	border: 3px solid black;
+	font-size: 50px;
+	box-sizing: border-box;
+}
+/*first page stuff*/
+#stockimg1 {
+	width: 60%;
+	margin: 100px;
+}
+#stockimg2 {
+	width: 60%;
+	margin: 100px;
+}
+#rickroll {/*this is simply just a link to never gonna give u up by rick astley*/
+	color: #000000;
+}
+#firstpagebody {
+	background: #073585;
+}
+#content1 {
+	Background: #FFEFDE;
+	padding-bottom: 50%;
+	border: 3px solid black;
+	width: 100%;
+	box-sizing: border-box;
+}
+/*first page stuff end*/
+
+/*contact page stuff*/
+#contactbody {
+	background: #c22b5d;
+}
+#content3 {
+	Background: #FFEFDE;
+	padding-bottom: 20%;
+	
+	border: 3px solid black;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 30px;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical
+}
+
+
+input[type=submit] {
+	background-color: #145f91;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+	background-color: #c43025;
+}
+
+
+.container {
+	border-radius: 5px;
+	background-color: #FEBAF7;
+	padding: 20px;
+}
+/*the end of the code for the contact page*/
+
+/* second page*/
 #secondbody {
-	background: #3f6146;
+	background: #CDF1AF;
 }
 #content2 {
 	Background: #FFEFDE;
-  padding-bottom:20%;
+  padding-bottom:40%;
 	border: 3px solid black;
-	width: 50%;
+	width: 40%;
 	box-sizing: border-box;
 	float: right;
 }
@@ -13,20 +94,17 @@ li{/* this is the list of all the names of the characters */
  font-size:25px;
 }
 /*start this is for the photos on otherpage.html */
-#photos {
+/*#photos {
 	Background: #ADECDA;
 	padding-bottom: 50%;
 	border: 3px solid black;
 	width: 50%;
 	box-sizing: border-box;
 	float: left;
-}
-#frog,#explosion,#toga,#Lemillion,#Iida,#deku,#momo,#todroki,#Aizawa{
-	width: 50%;
+}*/
+#frog,#toga,#Lemillion,#momo,#todroki,#Aizawa,#twice,#Iida,#explosion,#deku{
+	width: 57%;
 	float:left;
-}
-#twice{
-  width: 40%;
 }
 /*this end is for the photos on otherpage.html */
 /* end of second page*/
