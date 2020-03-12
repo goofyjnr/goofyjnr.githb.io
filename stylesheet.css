@@ -91,6 +91,7 @@ input[type=submit]:hover {
 	float: right;
 	font-size:20px;
 	color:#ffffff;
+	margin:1%;
 }
 li{/* this is the list of all the names of the characters */
  font-size:25px;
@@ -105,8 +106,9 @@ li{/* this is the list of all the names of the characters */
 	float: left;
 }*/
 #frog,#toga,#Lemillion,#momo,#todroki,#Aizawa,#twice,#Iida,#explosion,#deku{
-	width: 57%;
+	width: 56%;
 	float:left;
+	margin:1%;
 }
 /*this end is for the photos on otherpage.html */
 /* end of second page*/
