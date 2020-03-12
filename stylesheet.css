@@ -83,12 +83,14 @@ input[type=submit]:hover {
 	background: #CDF1AF;
 }
 #content2 {
-	Background: #FFEFDE;
+	Background: #D7008A;
   padding-bottom:40%;
 	border: 3px solid black;
 	width: 40%;
 	box-sizing: border-box;
 	float: right;
+	font-size:20px;
+	color:#ffffff;
 }
 li{/* this is the list of all the names of the characters */
  font-size:25px;
