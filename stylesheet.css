@@ -84,14 +84,14 @@ input[type=submit]:hover {
 }
 #content2 {
 	Background: #D7008A;
-  padding-bottom:30%;
+  padding-bottom:20%;
 	border: 3px solid black;
-	width: 40%;
+	width: 38%;
 	box-sizing: border-box;
 	float: right;
 	font-size:20px;
 	color:#ffffff;
-	margin:1%;
+	margin:2%;
 }
 li{/* this is the list of all the names of the characters */
  font-size:25px;
@@ -106,9 +106,9 @@ li{/* this is the list of all the names of the characters */
 	float: left;
 }*/
 #frog,#toga,#Lemillion,#momo,#todroki,#Aizawa,#twice,#Iida,#explosion,#deku{
-	width: 56%;
+	width: 54%;
 	float:left;
-	margin:1%;
+	margin:2%;
 }
 /*this end is for the photos on otherpage.html */
 /* end of second page*/
