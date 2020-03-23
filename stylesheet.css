@@ -8,12 +8,22 @@
 }
 /*first page stuff*/
 #stockimg1 {
-	width: 60%;
-	margin: 100px;
+	width: 50%;
+	margin: 25%;
+}
+#stockimg1:hover{
+  width: 80%;
+  margin:9%;
+  border:3px dotted black;
 }
 #stockimg2 {
-	width: 60%;
-	margin: 100px;
+	width: 50%;
+	margin: 25%;
+}
+#stockimg2:hover{
+  width: 80%;
+  margin:9%;
+  border:3px dashed black;
 }
 #rickroll {/*this is simply just a link to never gonna give u up by rick astley*/
 	color: #000000;
@@ -36,14 +46,26 @@
 }
 #content3 {
 	Background: #FFEFDE;
-	padding-bottom: 20%;
-	
+	padding-bottom: 10%;
 	border: 3px solid black;
 	width: 100%;
 	box-sizing: border-box;
 	font-size: 30px;
 }
-
+#form{
+  width:80%;
+  margin:10%;  
+  background-color:#91c2eb;
+}
+#first-name{
+  background-color:#edc2c7;
+}
+#last-name{
+  background-color:#ede6c2;
+}
+#country-box{
+  background-color:#9ca5db;
+}
 input[type=text], select, textarea {
 	width: 100%;
 	padding: 12px;
@@ -54,17 +76,23 @@ input[type=text], select, textarea {
 	margin-bottom: 16px;
 	resize: vertical
 }
-
+#subject{
+  background-color:#be97c7;
+}
 
 input[type=submit] {
-	background-color: #145f91;
+	background-color: #be97c7;
 	color: white;
-	padding: 12px 20px;
-	border: none;
+	padding: 20px 30px;
+	border: 3px solid black;
 	border-radius: 4px;
 	cursor: pointer;
 }
-
+#submit{
+  height:40px;
+  width:70px;
+  background-color:#9cf7d0;
+}
 
 input[type=submit]:hover {
 	background-color: #c43025;
@@ -73,7 +101,7 @@ input[type=submit]:hover {
 
 .container {
 	border-radius: 5px;
-	background-color: #FEBAF7;
+	background-color: #be97c7;
 	padding: 20px;
 }
 /*the end of the code for the contact page*/
@@ -143,7 +171,7 @@ a:hover {
 }
 /*end nav bar*/
 
-
+/*submit page start*/
 #bodysubmit{
   background:#E2A0F5;
 }
@@ -153,4 +181,20 @@ a:hover {
 }
 #imgthing{
   width:20%;
+}
+/*submit page end*/
+/*hidden start*/
+#hidden-body{
+  background-color:#000000;
+}
+#yay{
+  color:#ffffff;
+}
+#hidden-link{
+  font-size: 7px;
+  margin:35%;
+}
+#hidden-link:hover{
+  background-color:#6b806a;
+  font-size: 15px;
 }
