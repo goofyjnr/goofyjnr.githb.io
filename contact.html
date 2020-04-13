@@ -13,9 +13,12 @@
 	</div>
 	<div id="content3">
 		Do not contact me as it does not work properly yet if you really need to contact me email me at af8026@onelearn.nz
-		<div class="container">
+		<div class="container" id="form">
 			<form action="action_page.php">
-				<label for="fname">First Name</label> <input id="fname" name="firstname" placeholder="Your name.." type="text"> <label for="lname">Last Name</label> <input id="lname" name="lastname" placeholder="Your last name.." type="text"> <label for="country">Country</label> <select id="country" name="country">
+				<label for="fname">First Name</label> <input id="first-name" name="firstname" placeholder="Your name.." type="text">
+				<label for="lname">Last Name</label> <input id="last-name" name="lastname" placeholder="Your last name.." type="text"> 
+				<label for="country">Country</label> 
+				<select id="country-box" name="country">
 					<option value="australia">
 						Australia
 					</option>
@@ -38,7 +41,8 @@
 						Other
 					</option>
 				</select> <label for="subject">Subject</label> 
-				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea> <button class="button" formaction="submit.html" onclick="window.location.href = 'submit.html';" type="submit">Submit</button>
+				<textarea id="subject" name="subject" placeholder="Write something.." ></textarea> 
+				<button id="submit" class="button" formaction="submit.html" onclick="window.location.href = 'submit.html';" type="submit">Submit</button>
 			</form>
 		</div>
 	</div>
