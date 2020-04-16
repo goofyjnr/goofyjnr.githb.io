@@ -37,6 +37,7 @@
 	border: 3px solid black;
 	width: 100%;
 	box-sizing: border-box;
+	font: 'open-sans' ; /*I was trying to change the font on the first page to this but it didn't work*/
 }
 /*first page stuff end*/
 
@@ -166,7 +167,12 @@ a:hover {
 	padding: 3%;
 }
 #second { /*the link to the second page */
-	float: right;
+	float: left;
+	text-align: center;
+	padding: 3%;
+}
+#about{
+  	float: left;
 	text-align: center;
 	padding: 3%;
 }
@@ -201,4 +207,10 @@ a:hover {
 }
 #confetti{
   width:100%;
+}
+/*hidden end */
+
+/*about start*/
+#about-body{
+  background:green;
 }
